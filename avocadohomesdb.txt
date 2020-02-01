@@ -1,6 +1,6 @@
 CREATE TABLE avocadohouses (
   Quarter TEXT,
-  Avg_Avocado_Price INT,
+  Avg_Avocado_Price DEC,
   Avocado_Sales_Volume INT,
   Avg_Home_Price INT
 );
