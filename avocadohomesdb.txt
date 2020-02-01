@@ -1,5 +1,4 @@
 CREATE TABLE avocadohouses (
-  id INT PRIMARY KEY,
   Quarter TEXT,
   Avg_Avocado_Price INT,
   Avocado_Sales_Volume INT,
