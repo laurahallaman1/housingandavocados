@@ -1,0 +1,32 @@
+ETL Project 
+
+
+The sources of data that you will extract from:
+
+Our data sources are: 
+-A CSV file of Avocado Prices downloaded via Kaggle. Data comes from the Hass Avocado Board.  
+-A CSV file of Home Prices via the Saint Louis Federal Reserve. 
+
+
+The type of transformation needed for this data:
+Our process for this project included: 
+-Both datasets were cleaned in Pandas 
+-Drop unneeded columns not useful for the table 
+-Aggregate data from smaller timeframes into quarterly data and total volume 
+-Merge and remove redundant information
+-rename columns to allow formatting to correspond with SQL 
+
+
+The type of final production database to load the data into (relational or non-relational)
+-create a database in SQL to correspond with the columns 
+-load into a SQL Database by executing code within Jupiter notebooks
+-this code will send the database to SQL, creating a SQL database 
+
+
+The final tables or collections that will be used in the production database.
+Final table will include the following information: 
+Quarter, Average Avocado Price, Avocado Sales Volume, and average Home Price across the US 
+
+Our interest in comparing this data was inspired by the following article: https://www.theguardian.com/lifeandstyle/2017/may/15/australian-millionaire-millennials-avocado-toast-house, 
+in which an Australian billionaire stated the reason Millennials are not buying houses due to their voracious love of avocado toast.
+
