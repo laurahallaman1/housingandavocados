@@ -9,6 +9,7 @@ Our data sources are:
 
 
 The type of transformation needed for this data:
+
 Our process for this project included: 
 -Both datasets were cleaned in Pandas 
 -Drop unneeded columns not useful for the table 
@@ -17,16 +18,19 @@ Our process for this project included:
 -rename columns to allow formatting to correspond with SQL 
 
 
-The type of final production database to load the data into (relational or non-relational)
+The type of final production database to load the data into (relational or non-relational):
+
 -create a database in SQL to correspond with the columns 
 -load into a SQL Database by executing code within Jupiter notebooks
--this code will send the database to SQL, creating a SQL database 
+-this code will send the content from the Pandas dataframe to SQL 
+-relational database 
 
 
-The final tables or collections that will be used in the production database.
+The final tables or collections that will be used in the production database:
+
 Final table will include the following information: 
 Quarter, Average Avocado Price, Avocado Sales Volume, and average Home Price across the US 
 
-Our interest in comparing this data was inspired by the following article: https://www.theguardian.com/lifeandstyle/2017/may/15/australian-millionaire-millennials-avocado-toast-house, 
+Our interest in compiling this data was inspired by the following article: https://www.theguardian.com/lifeandstyle/2017/may/15/australian-millionaire-millennials-avocado-toast-house, 
 in which an Australian billionaire stated the reason Millennials are not buying houses due to their voracious love of avocado toast.
 
